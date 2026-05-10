@@ -1,0 +1,16 @@
+{
+  "variant": "stats_only",
+  "label": "仅统计特征",
+  "feature_dim_per_bs": 8,
+  "input_feature_dim": 144,
+  "checkpoint_epoch": 47,
+  "checkpoint_val_loss": 2009.5825447871766,
+  "test_mse": 4111.40814555235,
+  "test_rmse": 64.12026314319327,
+  "test_mae": 33.63565299402222,
+  "mean_distance_error": 52.77274727317462,
+  "p50_distance_error": 43.83039855957031,
+  "p90_distance_error": 105.98751525878907,
+  "p95_distance_error": 124.65575332641598,
+  "source": "rerun"
+}

@@ -1,0 +1,16 @@
+{
+  "variant": "downsample_only",
+  "label": "仅降采样特征",
+  "feature_dim_per_bs": 408,
+  "input_feature_dim": 7344,
+  "checkpoint_epoch": 44,
+  "checkpoint_val_loss": 1515.5728925069172,
+  "test_mse": 3553.228262683578,
+  "test_rmse": 59.60896126157189,
+  "test_mae": 27.278515641297773,
+  "mean_distance_error": 44.30922137720085,
+  "p50_distance_error": 29.96088409423828,
+  "p90_distance_error": 105.70317535400392,
+  "p95_distance_error": 133.64329528808597,
+  "source": "rerun"
+}
