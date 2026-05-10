@@ -1,0 +1,41 @@
+data:
+  raw_path: "G:/signal/simulated_dataset"
+  cache_path: "data/cache"
+  scenes: ["InF_DH", "InF_DL"]
+  sync_errors: [0,  10, 50]
+  skip_invalid_datasets: true
+  num_base_stations: 18
+  base_station_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+  sequence_length: 5
+  step_size: 2
+  downsample_rate: 8
+  feature_dim_per_bs: 416 # 3264 / 8 + 8
+
+model:
+  use_feature_attention: true
+  cnn:
+    out_channels: 64
+    kernel_size: 3
+  feature_attention:
+    reduction: 8
+  lstm:
+    hidden_size: 128
+    num_layers: 2
+  dropout_rate: 0.3
+  fc:
+    hidden_dim: 128
+    output_dim: 2 # 当前训练标签使用 (x, y)
+
+train:
+  seed: 42
+  batch_size: 32
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  epochs: 50
+  device: "auto"
+  train_ratio: 0.7
+  val_ratio: 0.15
+  early_stop_patience: 10
+  checkpoint_path: "checkpoints/best_model.pt"
+  output_dir: "outputs"
