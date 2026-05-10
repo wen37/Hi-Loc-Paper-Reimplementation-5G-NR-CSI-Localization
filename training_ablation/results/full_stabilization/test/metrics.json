@@ -1,0 +1,19 @@
+{
+  "checkpoint_epoch": 47,
+  "checkpoint_val_loss": 1739.9995538119613,
+  "test_mse": 3417.3563999604594,
+  "test_rmse": 58.45815939593428,
+  "test_mae": 30.715154068621167,
+  "mean_distance_error": 47.942410648333215,
+  "p50_distance_error": 39.209346771240234,
+  "p90_distance_error": 92.68871002197267,
+  "p95_distance_error": 117.63268585205077,
+  "variant": "full_stabilization",
+  "label": "完整稳定化",
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "use_input_norm": true,
+  "use_dropout": true,
+  "source": "existing_result2"
+}

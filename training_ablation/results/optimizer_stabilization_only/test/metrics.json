@@ -1,0 +1,19 @@
+{
+  "variant": "optimizer_stabilization_only",
+  "label": "仅优化层稳定化",
+  "checkpoint_epoch": 7,
+  "checkpoint_val_loss": 3540.330254916487,
+  "test_mse": 7001.268721974068,
+  "test_rmse": 83.6735843738875,
+  "test_mae": 48.50886403254593,
+  "mean_distance_error": 76.71632714531445,
+  "p50_distance_error": 75.58262634277344,
+  "p90_distance_error": 121.14169921875003,
+  "p95_distance_error": 134.13561706542967,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "use_input_norm": false,
+  "use_dropout": false,
+  "source": "rerun"
+}

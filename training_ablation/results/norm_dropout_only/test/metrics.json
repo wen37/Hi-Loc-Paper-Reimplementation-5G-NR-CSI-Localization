@@ -1,0 +1,19 @@
+{
+  "variant": "norm_dropout_only",
+  "label": "仅归一化+Dropout",
+  "checkpoint_epoch": 46,
+  "checkpoint_val_loss": 1105.1378247491245,
+  "test_mse": 2331.3121306660178,
+  "test_rmse": 48.28366318607172,
+  "test_mae": 21.47108650419683,
+  "mean_distance_error": 34.300163302989105,
+  "p50_distance_error": 22.84636116027832,
+  "p90_distance_error": 80.20037384033205,
+  "p95_distance_error": 103.85631103515622,
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "grad_clip": null,
+  "use_input_norm": true,
+  "use_dropout": true,
+  "source": "rerun"
+}
